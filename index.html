@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Foydalanuvchi Joylashuvi</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Foydalanuvchi joylashuvini aniqlash</h1>
+  <button onclick="getLocation()">Joylashuvni ko‘rsat</button>
+
+  <div id="info">
+    <p><strong>Kenglik:</strong> <span id="latitude">-</span></p>
+    <p><strong>Uzunlik:</strong> <span id="longitude">-</span></p>
+    <p><strong>Mamlakat:</strong> <span id="country">-</span></p>
+    <p><strong>Shahar:</strong> <span id="city">-</span></p>
+    <p><strong>IP Manzil:</strong> <span id="ip">-</span></p>
+    <p><strong>Internet provayder:</strong> <span id="isp">-</span></p>
+  </div>
+
+  <div id="map"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
